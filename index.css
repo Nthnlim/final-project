@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#webmail {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 30px;
+}
+
+#webmail:hover {
+    color:darkgreen;
+    text-decoration:underline;
+}
+#jelasinorang {
+    width: 60%;
+    z-index: -1;
+    display: flex;
+    margin-top: -240px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+#learnmore1 {
+    color: white;
+    margin-top: -100px;
+}
+
+#learnmore1:hover {
+    color: rgb(69, 170, 207);
+    background-color:white;
+}
+
+
+footer {
+    background-color: rgb(62, 55, 55);
+    display: flexbox;
+    padding: 50px 50px 50px 50px;
+}
+
+footer a {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.imgfooter {
+    float: right;
+}
+.quick {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    display: flexbox;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+}

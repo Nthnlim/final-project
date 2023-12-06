@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-biznet.png">
+
+    <script>
+        function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            let email = document.forms["myForm"]["email"].value;
+            if (email == "") {
+                alert("E-mail must be filled out");
+                return false;
+            }
+            let username = document.forms["myForm"]["username"].value;
+            if (username == "") {
+                alert("Please input your Username");
+            }
+            let password = document.forms["myForm"]["password"].value;
+            if (password == "") {
+                alert("Please input your Password");
+            }
+            let gender = document.forms["myForm"]["gender"].value;
+            if (gender == "") {
+                alert("Please select your gender");
+            }
+            let religion = document.forms["myForm"]["religion"].value;
+            if (religion == "select religion") {
+                alert("Please choose your Religion");
+            }
+            let Address = document.forms["myForm"]["Address"].value;
+            if (Address == "") {
+                alert("Address must be filled out");
+            }
+            let hobby = document.forms["myForm"]["hobby"].value;
+            if (hobby == "") {
+                alert("Please atleast select 1 hobbies");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="container-fluid mt-3">
+        <img class="img-fluid" src="biznet-logo-notag.png" alt="logo header biznet">
+        <a class="" id="webmail"href="https://email.biznet.net/webmail/">Webmail Login</a>
+    </header>
+    <nav>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div class="bg-light p-4">
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="index.html">HOME</a>
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="biodata.html">BIODATA</a>
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="contactus.html">CONTACT US</a>
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="freecontent.html">FREE</a>
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="https://fti.unai.edu/">FTI</a>
+                <a class="fw-bold text-dark text-decoration-none d-block mb-2" href="https://unai.edu/">UNAI</a>
+            </div>
+        </div>
+      <nav class="navbar navbar-white bg-white">
+        <div class="container-fluid">
+            <button class="navbar-toggler mr-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+      </nav>
+
+    <h1>Contact Us</h1><br>
+        
+        <form name="myForm" onsubmit="validateForm()" method="post">
+            Full Name: <input type="text" name="fname"><br><br>
+           
+            E-mail: <input type="text" name="email"><br><br>
+           
+            Username: <input type="text" name="username"><br><br>
+           
+            Password: <input type="password" name="password"><br><br>
+           
+            Gender: <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label><br><br>
+           
+                    <label for="religion">Religion:</label>        
+            <select name="religion" id="religion">
+                <option value="select religion">select religion</option>
+                <option value="Christian">Christian</option>
+                <option value="Chatolic">Chatolic</option>
+                <option value="Moslem">Moslem</option>
+                <option value="Buddha">Buddha</option>
+            </select><br><br>
+           
+            Address: <textarea name="Address" id="Address" cols="30" rows="10"></textarea><br><br>
+           
+            Hobbies:<input type="checkbox" id="singing" name="hobby" value="Singing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="drawing" name="hobby" value="Drawing">
+            <label for="drawing">Drawing</label>
+            <input type="checkbox" id="cooking" name="hobby" value="Cooking">
+            <label for="cooking">Cooking</label>
+            <input type="checkbox" id="playing_basketball" name="hobby" value="Playing Basketball">
+            <label for="playing_basketball">Playing Basketball</label><br><br>
+
+            <input type="submit" value="Save">
+
+        </form>
+    
+        <footer class="footermain">
+
+            <div class="imgfooter">
+                <img style="margin: 20px 30px 0px 50px;" src="footer_logo_biznet.png" alt="logo footer">
+            </div>
+    
+            <div>
+            <a href="https://biznet.com/hosting.asp">Website Hosting</a>
+            <a href="https://biznet.com/design.asp">Website Design</a>
+            <a href="https://biznet.com/design.asp">E-Commerce Systems</a>
+            <a href="https://www.onlineregistrationcenter.com/">Event Registration Management</a>
+            <a href="https://www.onlineregistrationcenter.com/  ">Registration Software</a>
+            <a href="https://biznet.com/seo.asp">Search Engine Optimization</a>
+            <a href="https://www.onlineregistrationcenter.com/">Registration System</a>
+            <a href="https://www.onlineregistrationcenter.com/">Registration Solution</a>
+            <a href="https://www.onlineregistrationcenter.com/">Event Registration Tool</a>
+            <a href="https://www.onlineregistrationcenter.com/">Training Registration System</a>
+            <a href="https://www.positiveproximity.com/">Attendance Session Tracking</a>
+            <a href="https://www.positiveproximity.com/">Session Tracking</a>
+            <a href="https://www.meetingcenter.online/">Virtual Event Portals</a>
+            <a href="https://www.meetingcenter.online/">Virtual Conference Services</a>
+            <a href="https://www.meetingcenter.online/">Networking Lounge Kiosks</a>
+            <a href="https://www.meetingcenter.online/">Vendor Lead Retrieval</a>
+            <a href="https://www.meetingcenter.online/">Virtual Meeting Tools</a>
+            <a href="https://www.meetingcenter.online/">Exhibitor Booth</a>
+            <a href="https://www.positiveproximity.com/">Continuing Education Lead Retrival</a>
+            <a href="https://www.myenablement.com/">MyEnablement Gamification</a>
+            </div>
+            <div class="quick">
+            <h3 style="color: grey;">QUICK CONTACT</h3>
+            </div>
+            <div class="footer-contact">
+                <p style="color: grey; font-size: smaller;"><img src="footer_home.jpg" alt="footer home">301 Concourse Blvd., Suite 360, Glen Allen, Virginia 23059</p>
+                <a style="margin-top: -5px; margin-left: 10px;" href="mailto:sales.q@biznet.net"><img src="footer_email.jpg" alt="email">sales.q@biznet.net</a>
+                <p style="color: grey; font-size: smaller; margin-left: 10px;"><img src="footer_call.jpg" alt="footer call">(804) 755-4885</p>
+            </div>
+        </footer>
+</body>
+</html>
